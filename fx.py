@@ -93,5 +93,6 @@ step2= step1.split()
 step3= step2[-1::-1]
 step4= " ".join(step3)
 print(step4)
+print(len(step4))
 
 
