@@ -179,6 +179,7 @@ elif num2>num1 and num2>num3:
 else:
     print(f"{num3} is the greatest number.")
 
+print("Thank you for using the program!")
 
 
 
