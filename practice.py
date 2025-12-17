@@ -28,7 +28,7 @@ month={1:"January",
        12:"December"}
 
 if month_num in month:
-    print(f"The month is: {month[month_num]}")
+    print(f"The month is {month[month_num]}")
 else:
     print("Invalid month number. Please enter a number between 1 and 12.")
 
@@ -404,6 +404,8 @@ else:
             print("Game over")
         else:
             print("You win!")
+
+
 
 
 
