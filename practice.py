@@ -396,7 +396,7 @@ if option1=="d":
     print("Game over")
 else:
     option2=input("do you want to enter or stay outside (e/s)").lower()
-    if option2==e:
+    if option2=='e':
         print("Game over")
     else:
         option3=input("ghost, vampire or werewolf (g/v/w)").lower()
