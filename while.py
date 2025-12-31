@@ -160,19 +160,42 @@ import random as rd
 
 #11
 
-inputs={}
-flag=True
-while flag:
-    name=input("Enter a name")
-    if name not in inputs:
-        inputs[name]=1
-        print(f"You have typed {name} ")
+# inputs={}
+# flag=True
+# while flag:
+#     name=input("Enter a name: ")
+#     if name not in inputs:
+#         inputs[name]=1
+#         print(f"You have typed {name} {inputs[name]} times")
+#     else:
+#         inputs[name]+=1
+#         if inputs[name]==3:
+#             print(f"You have entered {name} 3 times")
+#             break
+#         else:
+#             print(f"You have typed {name} {inputs[name]} times")
 
 
+#12
 
 
+current_floor = 1
 
-
+while True:
+    try:
+        destination_floor = int(input("Enter the destination floor (0 to exit): "))
+        if destination_floor == 0:
+            print("Goodbye!")
+            break
+        elif destination_floor > current_floor:
+            print("Going up")
+        elif destination_floor < current_floor:
+            print("Going down")
+        else:
+            print("You are already on this floor")
+        current_floor = destination_floor
+    except:
+        print("Invalid input. Please enter a valid floor number.")
 
 
 
