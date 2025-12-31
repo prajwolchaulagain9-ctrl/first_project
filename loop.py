@@ -181,9 +181,10 @@
 
 #19
 
-# for x in range (1,9):
+# for x in range (1,10):
 #     for y in range(1,11):
 #         print(f"{x}*{y}={x*y}")
+#         
 # #21
 
 # min=int(input("Enter the lowest number: "))
@@ -201,8 +202,7 @@
 # for x in range(min,max):
 #     if x%2==0:
 #         even_num=even_num+x
-# print("the sum of all odd numbers in the range is", even_num)
-
+# print("the sum of all odd numbers in the range is", even_num)  
 
 ##23
 # something=input("Enter something: ")
@@ -258,7 +258,16 @@
 
 ##30
 
-# lst=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+# lst=[]
+# flag=True
+# while flag:
+#     num=(input("Enter the numbers to add in list(Exit for end): ")).lower()
+    
+#     if num=="exit":
+#         break
+#     else:
+#         lst.append(int(num))
+# print(lst)
 # lst1=[]
 # for x in lst:
 #     lst1.append(x**2)
@@ -356,7 +365,7 @@
 
 # nums=["1001","2001","3001","3003"]
 # for x in nums:
-#     rev_num=x[-1::-1]
+#     rev_num=x[::-1]
 #     if x==rev_num:
 #         print(f"{x} is palindrome")
 #     else:
@@ -370,7 +379,7 @@
 #     armstron_sum=0
 #     for y in range(len(a)):
 #         armstron_sum= armstron_sum + (int(a[y]))**(len(a))
-#     if armstron_sum==int(a):
+#     if armstron_sum==x:
 #         print(f"{a} is armstrong number")
 #     else:
 #         print(f"{a} is not armstron number")
@@ -387,7 +396,7 @@
 
 
 
-
+ 
 
 
 
