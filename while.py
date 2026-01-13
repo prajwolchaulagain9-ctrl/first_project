@@ -65,11 +65,11 @@ import random as rd
 # #6
 
 # import random as rd
-# number_to_guess=rd.randint(1,10)
+# number_to_guess=rd.randint(1,100)
 # guess_needed=0
 # flag=True
 # while flag:
-#     guessed_num=int(input("Gues a number between 1-10: "))
+#     guessed_num=int(input("Gues a number between 1-100: "))
 #     guess_needed+=1
 #     if number_to_guess==guessed_num:
 #         print(f"{guess_needed} guesses needed")
@@ -164,7 +164,7 @@ import random as rd
 # flag=True
 # while flag:
 #     name=input("Enter a name: ")
-#     if name not in inputs:
+#     if name not in inputs:a
 #         inputs[name]=1
 #         print(f"You have typed {name} {inputs[name]} times")
 #     else:
@@ -179,24 +179,23 @@ import random as rd
 #12
 
 
-current_floor = 1
+# current_floor = 1
 
-while True:
-    try:
-        destination_floor = int(input("Enter the destination floor (0 to exit): "))
-        if destination_floor == 0:
-            print("Goodbye!")
-            break
-        elif destination_floor > current_floor:
-            print("Going up")
-        elif destination_floor < current_floor:
-            print("Going down")
-        else:
-            print("You are already on this floor")
-        current_floor = destination_floor
-    except:
-        print("Invalid input. Please enter a valid floor number.")
-
+# while True:
+#     try:
+#         destination_floor = int(input("Enter the destination floor (0 to exit): "))
+#         if destination_floor == 0:
+#             print("Goodbye!")
+#             break
+#         elif destination_floor > current_floor:
+#             print("Going up")
+#         elif destination_floor < current_floor:
+#             print("Going down")
+#         else:
+#             print("You are already on this floor")
+#         current_floor = destination_floor
+#     except:
+#         print("Invalid input. Please enter a valid floor number.")
 
 
 
